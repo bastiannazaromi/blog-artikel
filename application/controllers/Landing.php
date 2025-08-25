@@ -73,7 +73,7 @@ class Landing extends CI_Controller
 
 			$this->session->set_flashdata('toastr-success', 'Komentar berhasil dikirim');
 
-			redirect('artikel/' . $id, 'refresh');
+			redirect('detail/artikel/' . $id, 'refresh');
 		}
 	}
 }
